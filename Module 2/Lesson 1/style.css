@@ -1,0 +1,18 @@
+ul {
+    background-color:burlywood;
+    height: 200px;
+    width: 300px;
+}
+
+#definition {
+    background-color: bisque;
+}
+
+.hungry {
+    text-align: center;
+    color: blueviolet;
+}
+
+* {
+    background-color: beige;
+}

@@ -1,0 +1,17 @@
+ol {
+    background-color: lightcyan;
+    color: lightskyblue
+}
+
+ul {
+    background-color: cadetblue;
+    color: blue
+}
+
+ul {
+    background-color: cadetblue
+}
+
+* {
+    background-color: lightcyan
+}

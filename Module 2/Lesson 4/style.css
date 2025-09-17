@@ -1,0 +1,33 @@
+/*Attribute Selector*/
+input[type="text"] {
+    border: 2px solid greenyellow;
+}
+input[type="password"] {
+    border: 2px solid rgb(68, 47, 255);
+}
+/*Child Selector*/
+ul > li {
+    color: red;
+}
+/*Sibling Selector*/
+h2 + p {
+    background-color: purple;
+}
+a:hover {
+    color: gold;
+}
+/*nth child*/
+li:nth-child(2) {
+    background-color: yellow;
+}
+#heading2::before {
+    content: "✨";
+}
+#Paragraph::after {
+    content: "🎉";
+}
+#Paragraph::first-letter {
+    color: violet;
+    font-weight: bold;
+    font-size: 40px;
+}

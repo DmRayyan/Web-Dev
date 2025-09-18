@@ -5,34 +5,82 @@
         <style>
             #grad1 {
                 height: 190px;
+                rotate: -2.5deg;
                 background: url(Just\ chill\ bro.jpg)
             }
             #grad2 {
-                height: 170px;
+                height: 190px;
+                rotate: 2.5deg;
                 background:linear-gradient(to bottom right, blue,lightblue,skyblue)
             }
             #grad3 {
-                height: 170px;
+                height: 190px;
+                rotate: -2.5deg;
                 background:radial-gradient(lightpink,pink,purple,blue)
+            }
+            #h1 {
+                color: blueviolet;
+                text-shadow: 1px 1px blue;
+                text-decoration: underline overline;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            #paragraph {
+                color: white;
+                text-indent: 20px;
+                text-decoration: underline;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 20px;
+                font-weight: bold;
+                box-shadow: 2px 2px 5px white;
+                text-shadow: 1px 1px black;
+            }
+            #h2 {
+                color: cadetblue;
+                text-shadow: 1px 1px blue;
+                text-decoration: underline overline;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #p2 {
+                color: blue;
+                text-shadow:1px 1px skyblue;
+                font-family: Arial, Helvetica, sans-serif;
+                box-shadow: darkblue;
+                text-decoration: underline;
+            }
+            #h3 {
+                color: purple;
+                text-shadow: 1px 1px darkblue;
+                text-decoration: underline overline;
+            }
+            #p3 {
+                color: pink;
+                text-shadow: 1px 1px purple;
+                text-decoration: underline;
+                font-size: 17px;
             }
         </style>
     </head>
     <body>
         <div id="grad1">
-            <h2 style="text-align: center;">CSS Effects</h2>
-            CSS effects are many types. For example we have: <strong>background effects</strong> and we also have <strong>gradient effects.</strong> The background behind the texts is a <b>Background Image..</b>
+            <h2 id="h1" style="text-align: center;">CSS Effects</h2>
+            <p id="paragraph">CSS effects are many types. For example we have: <strong>background effects</strong> and we also have <strong>gradient
+                effects.</strong> The background behind the texts is a <b>Background Image..</b></p>
         </div>
         <div id="grad2">
-            <h2 style="text-align: center;">Background Effects..</h2>
-            Background effects can be two types. One is <b>Background image</b> and the other is Background Gradients aka <b>the
+            <h2 id="h2" style="text-align: center;">Background Effects..</h2>
+            <p id="p2">Background effects can be two types. One is <b>Background image</b> and the other is Background Gradients aka <b>the
                 Gradient Effects.</b> The gradients are two types. One is <b>Linear Gradient</b> and the other is <b>Radiant
                 Gradient.</b>
-            today we will use these two. The background behind the texts are <b>Linear Gradient..</b> Linear Gradient basically starts from top left, top right, bottom left and bottom right. Lets move onto Radient Gradient.
+            today we will use these two. The background behind the texts are <b>Linear Gradient..</b> Linear Gradient basically
+            starts from top left, top right, bottom left and bottom right. Lets move onto Radient Gradient.</p>
         </div>
         <div id="grad3">
-            <h2 style="text-align: center;">Background Effects</h2>
-            Now that we have done Linear Gradients, lets do <b>Radient Gradient.</b> Radient Gradient basically starts from the middle while Linear Gradient starts from top left, top right, bottom left, bottom right etc. The background behind the texts are <b>Radient Gradient..</b>
-            And we are done with the background effects of CSS. There are text customizations as well which we will do in the next project.👍👋
+            <h2 id="h3" style="text-align: center;">Background Effects</h2>
+           <p id="p3">Now that we have done Linear Gradients, lets do <b>Radient Gradient.</b> Radient Gradient basically starts from the
+        middle while Linear Gradient starts from top left, top right, bottom left, bottom right etc. The background behind the
+        texts are <b>Radient Gradient..</b>
+        And we are done with the background effects of CSS. There are text customizations as well which we will do in the next
+        project.👍👋</p>
         </div>
     </body>
 </html>
